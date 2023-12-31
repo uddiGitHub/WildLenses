@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="WildLense">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wild Lense</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" href="icons/favicon.png" type="image/png" sizes="16x16">
+
+</head>
+
+<body>
+    <h1 class="main-head">Wild Lense</h1>
+    <div class="container">
+        <div class="header-section">
+            <h1>Upload Image</h1>
+            <!-- <p>Upload the Image Here.</p> -->
+            <p>Only Images are allowed.</p>
+        </div>
+        <div class="drop-section">
+            <div class="drop-info">
+                <div class="cloud-icon">
+                    <img src="icons/cloud-icon.png" alt="cloud-icon">
+                </div>
+                <span>Drag & Drop your file here</span>
+                <span>OR</span>
+                <button class="browse-btn">Browse File</button>
+                <input type="file" id="file-selector-input" accept="image/*">
+                <!-- <div class="invalid-file">Invalid File Type<br>Reload the page</div> -->
+            </div>
+            <div class="drag-drop">
+                <div class="drop-here">Drop Here</div>
+            </div>
+        </div>
+        <div class="list-section">
+            <div class="list-title">Uploaded file</div>
+            <div class="list">
+                <!-- <li class="in-progress">
+                    <div class="col">
+                        <img class="img-icon" src="icons/img-icon.png" alt="img-icon">
+                    </div>
+                    <div class="col">
+                        <div class="file-name">
+                            <div class="name">File Name Here</div>
+                            <span>50%</span>
+                        </div>
+                        <div class="file-progress">
+                            <span></span>
+                        </div>
+                        <div class="file-size">2.2 MB</div>
+                    </div>
+                </li> -->
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

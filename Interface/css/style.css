@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: leaf-font;
+  src: url("../font/alketa-demo/alketa\ demo\ regular.ttf");
+}
+
+html,
+body {
+  font-family: 'Itim', sans-serif;
+  /* background-image: url("../image/background.png"); */
+  /* background-color: rgb(0, 0, 0); */
+}
+
+.main-head {
+  font-family: leaf-font, sans-serif;
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #044304b6, #458d45);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* padding-top: 10px; */
+  -webkit-text-stroke: .6px rgb(37, 28, 28);
+  /* text-shadow: whitesmoke 0px 0px 10px; */
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  max-height: fit-content;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.header-section>h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.header-section>p {
+  font-size: 20px;
+  color: #3e65bf9a;
+}
+
+
+
+.drop-section {
+  min-height: 250px;
+  border: 1px dashed #3e65bf9a;
+  border-radius: 10px;
+  margin: 5px 35px 35px 35px;
+  background-image: linear-gradient(180deg, whitesmoke, white);
+  position: relative;
+}
+/* .drop-info .invalid-file{
+  display: none;
+  font-size: 2rem;
+  font: bold;
+  color: #ea3a23a9;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.drop-section .drag-drop {
+  display: none;
+}
+
+.drag-over-effect div.drag-drop {
+  display: block;
+  font-size: 2rem;
+  font: bold;
+  color: #7079e0a9;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.drop-section div.col:first-child {
+  opacity: 1;
+  visibility: visible;
+  transition-duration: 0.2s;
+  transform: scale(1);
+  width: 200px;
+  margin: auto;
+}
+
+.drop-section div.col:last-child {
+  font-size: 40px;
+  font-weight: 700;
+  color: #c0cae1;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.6);
+  transition-duration: 0.2s;
+}
+
+.drop-section .cloud-icon>img {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.drop-section span,
+.drop-section button {
+  display: block;
+  margin: auto;
+  color: #707AE0;
+  margin-bottom: 10px;
+}
+
+.drop-section .browse-btn {
+  background-color: #3e65bf9a;
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  box-shadow: rgb(50, 50, 93, 0.25) 0px 13px 27px -5px, rgb(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.drop-section input[type="file"] {
+  display: none;
+}
+
+.list-section {
+  display: none;
+  text-align: left;
+  margin: 0px 35px;
+  padding-bottom: 20px;
+}
+
+.list-section .list-title {
+  font-size: 0.95rem;
+  color: #3e65bf9a;
+}
+
+.list-section li {
+  display: flex;
+  margin: 15px 0px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  border-radius: 8px;
+  border: #c0cae1b1 0.1px solid;
+  transition-duration: 0.2s;
+  /* box-shadow: #e3eaf9 0px 0px 4px 0px, #e3eaf9 0px 12px 16px 0px; */
+
+}
+
+.list-section .img-icon {
+  width: 100%;
+  height: fit-content;
+}
+
+.list-section li:hover {
+  box-shadow: #e3eaf9 0px 0px 4px 0px, #e3eaf9 0px 12px 16px 0px;
+}
+
+.list-section li .col {
+  flex: .1;
+}
+
+.list-section li .col:nth-child(1) {
+  flex: .15;
+  text-align: center;
+}
+
+.list-section li .col:nth-child(2) {
+  flex: .85;
+  text-align: left;
+  font-size: 0.95rem;
+  color: #3e4046;
+  padding: 8px 10px;
+}
+
+.list-section li .col:nth-child(2) div.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.list-section li .file-name span {
+  color: #3e65bf9a;
+  float: right;
+}
+
+.list-section li .file-progress {
+  width: 100%;
+  height: 5px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background-color: #e3eaf9;
+}
+
+.list-section li .file-progress span {
+  display: block;
+  width: 50%;
+  height: 100%;
+  border-radius: 8px;
+  background-image: linear-gradient(120deg, #6b99fd, #9385ff);
+  transition-duration: 0.4s;
+}
+
+.list-section li.complete span,
+.list-section li.complete .file-progress {
+  display: none;
+}
+
+.list-section li.in-progress .file-size {
+  display: none;
+}
