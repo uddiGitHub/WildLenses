@@ -1,5 +1,5 @@
 Plant Name: Cheilocostus speciosus
-Botanical Name: Cheilocostus speciosus
+Binomial Name: Cheilocostus speciosus
 Family: Costaceae
 Assamese Name: Jom lakhuti
 Bodo Name: Buri-tokon
@@ -9,8 +9,8 @@ Habitat: China, India, Queensland, and Greater Sunda Islands of Indonesia.
 
 ************************
 
-Plant Name: Lasia Spinosa
-Botanical Name: Lasia spinosa (L.) Thwaites
+Plant Name: Lasia Spinosa (L.) Thwaites
+Binomial Name: Lasia spinosa 
 Family: Araceae
 Assamese Name: Chengmora
 Bodo Name: Chibru
@@ -21,7 +21,7 @@ Habitat: India, Sri Lanka, Nepal, Bhutan, Bangladesh, China, Myanmar, Taiwan, Vi
 ************************
 
 Plant Name: Paederia Foetida (L.)
-Botanical Name: Paederia Foetida
+Binomial Name: Paederia Foetida
 Family: Rubiaceae
 Assamese Name: Paduri lota / Bhedai lota
 Bodo Name: Khephi bendwng
@@ -32,7 +32,7 @@ Habitat: India, Mascarenes, Melanesia, Polynesia, the Hawaiian Islands, and Nort
 ************************
 
 Plant Name: Tephrosia Candida(Roxb.) DC
-Botanical Name: Tephrosia Candida(Roxb.) DC
+Binomial Name: Tephrosia Candida
 Family: Fabaceae
 Assamese Name: Bilakhani / Teli-kodom
 Bodo Name: Jabwsri
@@ -43,7 +43,7 @@ Habitat: Native to India and has been introduced to other parts of the world, in
 ************************
 
 Plant Name: Bambusa balcooa (Roxb.)
-Botanical Name: Bambusa balcooa (Roxb.)
+Binomial Name: Bambusa balcooa
 Family: Poaceae
 Assamese Name: Bhaluka Bah 
 Bodo Name: Auwa gubwi
@@ -54,7 +54,7 @@ Habitat: Native to the Indian subcontinent and Indo-China. In India it is cultiv
 ************************
 
 Plant Name: Vitex negundo (L.)
-Botanical Name: Vitex negundo
+Binomial Name: Vitex negundo
 Family: Lamiaceae
 Assamese Name: Pasotia
 Bodo Name: Boro Khom
@@ -63,3 +63,23 @@ Method of cooking: Tender leaves are used as vegetable. The plant is considered 
 Habitat: Native to Afghanistan, Bangladesh, Bhutan, Cambodia, China, India, Indonesia, Japan, Korea, Malaysia. In India it is largly found in Assam.
 
 ************************
+
+Plant Name: Chenopodium album (L.)
+Binomial Name: Chenopodium album
+Family: Amaranthaceae
+Assamese Name: Jilmil-sak, Bhatuwa-sak
+Bodo Name: Butua
+Edible Part of the Plant: Young shoot / Leaves
+Method of cooking: Young leaves and shoot are eaten cooked as vegetable.
+Habitat: Native to Europe and Asia. In India, it is extensively cultivated and consumed in Northern parts.
+
+************************
+
+Plant Name: Amaranthus spinosus
+Binomial Name: Amaranthus spinosus
+Family: Amaranthaceae
+Assamese Name: Hatikhutura 
+Bodo Name: Kuduna geder 
+Edible Part of the Plant: Young shoot / Leaves
+Method of cooking: Tender shoot and leaves are eaten cooked.
+Habitat: Native to the tropical Americas. In India, it is found in Assam, Bengal and Malaba.
